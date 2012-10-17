@@ -15,7 +15,7 @@ import com.sun.net.httpserver.HttpHandler;
 import com.sun.net.httpserver.HttpServer;
 import com.sun.net.httpserver.HttpsServer;
 
-public class SimpleTestServer {
+public class SimpleTestWebServer {
 	
 	private final class SimpleHttpHandler implements HttpHandler {
 		final String response;

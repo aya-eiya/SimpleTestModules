@@ -1,13 +1,11 @@
 import static org.junit.Assert.*;
 
 import java.io.BufferedReader;
-import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
 import java.net.URI;
 
-import jp.eiya.aya.test.SimpleTestServer;
+import jp.eiya.aya.test.SimpleTestWebServer;
 
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
@@ -16,7 +14,7 @@ import org.junit.Test;
 
 public class SampleHttpTest {
 	
-	private static final SimpleTestServer server = new SimpleTestServer();
+	private static final SimpleTestWebServer server = new SimpleTestWebServer();
 	
 	@BeforeClass
 	public static void setHandlar() throws Exception {
